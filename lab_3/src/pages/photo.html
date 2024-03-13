@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #dadaf3;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            grid-template-rows: 250px 250px 250px;
+            gap: 50px;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 8px 8px 0 0;
+
+        }
+
+        .photo:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        .caption {
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 0 0 5px 5px;
+            font-size: 14px;
+        }
+
+        .photo a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        ul li {
+            margin-right: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Фотоальбом</h1>
+<nav>
+    <ul>
+        <li>
+            <a href="schedule.html">Мій розклад</a>
+        </li>
+        <li>
+            <a href="index.html">Головна</a>
+
+        </li>
+        <li>
+            <a href="news.html">Останні новини</a>
+        </li>
+    </ul>
+</nav>
+
+<main class="gallery">
+    <figure class="photo">
+        <a href="../assets/img/labyrinth.jpg" target="_blank">
+            <img src="../assets/img/labyrinth.jpg" alt="Image_1">
+        </a>
+        <figcaption class="caption">Labyrinth - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/bus.jpg" target="_blank">
+            <img src="../assets/img/bus.jpg" alt="Image_2">
+        </a>
+        <figcaption class="caption">Bus - 894x894</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/dish.jpg" target="_blank">
+            <img src="../assets/img/dish.jpg" alt="Image_3">
+        </a>
+        <figcaption class="caption">Dish - 894x894</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/hedgehog.png" target="_blank">
+            <img src="../assets/img/hedgehog.png" alt="Image_4">
+        </a>
+        <figcaption class="caption">Hedgehog - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/house.png" target="_blank">
+            <img src="../assets/img/house.png" alt="Image_5">
+        </a>
+        <figcaption class="caption">House - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/tree.jpg" target="_blank">
+            <img src="../assets/img/tree.jpg" alt="Image_3">
+        </a>
+        <figcaption class="caption">Tree - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/octopus.png" target="_blank">
+            <img src="../assets/img/octopus.png" alt="Image_4">
+        </a>
+        <figcaption class="caption">Octopus - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/robot.jpg" target="_blank">
+            <img src="../assets/img/robot.jpg" alt="Image_5">
+        </a>
+        <figcaption class="caption">Robot - 1024x1024</figcaption>
+    </figure>
+    <figure class="photo">
+        <a href="../assets/img/underwater.jpg" target="_blank">
+            <img src="../assets/img/underwater.jpg" alt="Image_5">
+        </a>
+        <figcaption class="caption">Underwater - 1920x1921</figcaption>
+    </figure>
+</main>
+
+<footer>
+    <p>&copy; 2024 Copyright. Всі права захищені.</p>
+</footer>
+</body>
+</html>

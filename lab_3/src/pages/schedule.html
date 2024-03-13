@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #dadaf3;
+            margin: 20px;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        ul li {
+            margin-right: 10px;
+        }
+
+        .mark {
+            background: #e3ba12;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>
+        Таблиця з розкладом занять поточного семестру
+    </h1>
+</header>
+
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">Головна</a>
+        </li>
+        <li>
+            <a href="photo.html">Фотоальбом</a>
+        </li>
+        <li>
+            <a href="news.html">Останні новини</a>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <table>
+        <thead>
+        <tr>
+            <th>День тижня</th>
+            <th>Час</th>
+            <th>Назва</th>
+            <th>Викладач</th>
+            <th>Платформа та Ідентифікатор</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td rowspan="1">Понеділок</td>
+            <td>14:30</td>
+            <td>Основи програмної інженерії</td>
+            <td class="mark">Лимаренко Ю.О.</td>
+            <td>Zoom: 7422143985<br/> password: 379 </td>
+        </tr>
+
+        <tr>
+
+            <td rowspan="2">Вівторок</td>
+            <td>11:25</td>
+            <td>Front-end технології</td>
+            <td class="mark">Панасенко Є.В.</td>
+            <td>Zoom: 8326294077<br/> password: 016283</td>
+        </tr>
+        <tr>
+            <td>12:55</td>
+            <td>Front-end технології</td>
+            <td class="mark">Лісняк А.О.</td>
+            <td>BigBlueButton</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Середа</td>
+            <td>14:30</td>
+            <td>Основи DevOps <em>(За чисельниками)</em></td>
+            <td class="mark">Гоменюк С.І.</td>
+            <td>Zoom: 2516918543<br/> password: Qwerty</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Основи автоматизованого складних об'єктів та систем</td>
+            <td class="mark">Гребенюк С.М.</td>
+            <td>Zoom: 8825160001<br/> password: 394394</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Основи DevOps</td>
+            <td class="mark">Гоменюк С.І.</td>
+            <td>Zoom: 2516918543<br/> password: Qwerty</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Основи автоматизованого складних об'єктів та систем</td>
+            <td class="mark">Гребенюк С.М.</td>
+            <td>Zoom: 8825160001<br/> password: 394394</td>
+        </tr>
+
+        <tr>
+            <td rowspan="1">Четверг</td>
+            <td colspan="4">Вихідний</td>
+        </tr>
+        <tr>
+
+        </tr>
+
+        <tr>
+            <td rowspan="4">П'ятниця</td>
+            <td>14:30</td>
+            <td>Основи розробки Web-сайтів</td>
+            <td class="mark">Панасенко Є.В.</td>
+            <td>Zoom: 8326294077<br/> password: 016283</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Основи програмної інженерії</td>
+            <td class="mark">Лебідь. М.</td>
+            <td>Zoom: 4071893731<br/> password: 81p2Qu</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Системи віртуалізації та контейнеризації</td>
+            <td class="mark">Мухін В.В.</td>
+            <td>Zoom: 84440478886<br/> password: w0Y1a3</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>Системи віртуалізації та контейнеризації <em>(За чисельниками)</em></td>
+            <td class="mark">Мухін В.В.</td>
+            <td>Zoom: 84440478886<br/> password: w0Y1a3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="1">Субота</td>
+            <td>14:30</td>
+            <td>Основи графічного дизайну</td>
+            <td class="mark">Кардашов М.В</td>
+            <td>Zoom: 8895287716<br/> password: 6QpT0e</td>
+        </tr>
+
+        <tr>
+            <td rowspan="1">Неділя</td>
+            <td colspan="4">Вихідний</td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <p>&copy; 2024 Copyright. Всі права захищені.</p>
+</footer>
+</body>
+</html>
