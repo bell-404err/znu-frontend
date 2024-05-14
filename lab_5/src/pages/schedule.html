@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="../scss/index.scss">
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header header_with-margin">
+        <h1 class="header__title">
+            Таблиця з розкладом занять поточного семестру
+        </h1>
+    </header>
+
+    <nav class="menu menu_with-margin">
+        <ul class="menu__list">
+            <li class="menu__item">
+                <a href="index.html">Головна</a>
+            </li>
+            <li class="menu__item">
+                <a href="photo.html">Фотоальбом</a>
+            </li>
+            <li class="menu__item">
+                <a href="news.html">Останні новини</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <table class="schedule schedule_with-margin">
+            <thead class="schedule-header">
+            <tr class="schedule-header__row">
+                <th class="schedule-header__cell">День тижня</th>
+                <th class="schedule-header__cell">Час</th>
+                <th class="schedule-header__cell">Назва</th>
+                <th class="schedule-header__cell">Викладач</th>
+                <th class="schedule-header__cell">Платформа та Ідентифікатор</th>
+            </tr>
+            </thead>
+
+            <tbody class="schedule-body">
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="1">Понеділок</td>
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи програмної інженерії</td>
+                <td class="schedule-body__cell mark">Лимаренко Ю.О.</td>
+                <td class="schedule-body__cell">Zoom: 7422143985<br/> password: 379 </td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="2">Вівторок</td>
+                <td class="schedule-body__cell">11:25</td>
+                <td class="schedule-body__cell">Front-end технології</td>
+                <td class="schedule-body__cell mark">Панасенко Є.В.</td>
+                <td class="schedule-body__cell">Zoom: 8326294077<br/> password: 016283</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">12:55</td>
+                <td class="schedule-body__cell">Front-end технології</td>
+                <td class="schedule-body__cell mark">Лісняк А.О.</td>
+                <td class="schedule-body__cell">BigBlueButton</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="4">Середа</td>
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи DevOps <em>(За чисельниками)</em></td>
+                <td class="schedule-body__cell mark">Гоменюк С.І.</td>
+                <td class="schedule-body__cell">Zoom: 2516918543<br/> password: Qwerty</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи автоматизованого складних об'єктів та систем</td>
+                <td class="schedule-body__cell mark">Гребенюк С.М.</td>
+                <td class="schedule-body__cell">Zoom: 8825160001<br/> password: 394394</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи DevOps</td>
+                <td class="schedule-body__cell mark">Гоменюк С.І.</td>
+                <td class="schedule-body__cell">Zoom: 2516918543<br/> password: Qwerty</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи автоматизованого складних об'єктів та систем</td>
+                <td class="schedule-body__cell mark">Гребенюк С.М.</td>
+                <td class="schedule-body__cell">Zoom: 8825160001<br/> password: 394394</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="1">Четверг</td>
+                <td class="schedule-body__cell" colspan="4">Вихідний</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="4">П'ятниця</td>
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи розробки Web-сайтів</td>
+                <td class="schedule-body__cell mark">Панасенко Є.В.</td>
+                <td class="schedule-body__cell">Zoom: 8326294077<br/> password: 016283</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи програмної інженерії</td>
+                <td class="schedule-body__cell mark">Лебідь. М.</td>
+                <td class="schedule-body__cell">Zoom: 4071893731<br/> password: 81p2Qu</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Системи віртуалізації та контейнеризації</td>
+                <td class="schedule-body__cell mark">Мухін В.В.</td>
+                <td class="schedule-body__cell">Zoom: 84440478886<br/> password: w0Y1a3</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Системи віртуалізації та контейнеризації <em>(За чисельниками)</em></td>
+                <td class="schedule-body__cell mark">Мухін В.В.</td>
+                <td class="schedule-body__cell">Zoom: 84440478886<br/> password: w0Y1a3</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="1">Субота</td>
+                <td class="schedule-body__cell">14:30</td>
+                <td class="schedule-body__cell">Основи графічного дизайну</td>
+                <td class="schedule-body__cell mark">Кардашов М.В</td>
+                <td class="schedule-body__cell">Zoom: 8895287716<br/> password: 6QpT0e</td>
+            </tr>
+
+            <tr class="schedule-body__row">
+                <td class="schedule-body__cell" rowspan="1">Неділя</td>
+                <td class="schedule-body__cell" colspan="4">Вихідний</td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+</div>
+
+<footer>
+    <p>&copy; 2024 Copyright. Всі права захищені.</p>
+</footer>
+</body>
+</html>

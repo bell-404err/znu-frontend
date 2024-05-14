@@ -1,0 +1,9 @@
+$title-font-size: 30px;
+
+.title {
+  font-size: $title-font-size;
+
+  &.title_with-margin {
+    margin-bottom: 10px;
+  }
+}

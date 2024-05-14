@@ -1,0 +1,42 @@
+@import "~normalize.css";
+
+@import "header/header";
+@import "menu/menu";
+@import "bio/bio";
+@import "hobbies/hobbies";
+@import "title/title";
+@import "gallery/gallery";
+@import "schedule/schedule";
+@import "news/news";
+
+$text-color: #e5e5e5;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+  font-family: sans-serif
+}
+
+body {
+  background: linear-gradient(rgba(19, 60, 172, 1) 0%, rgba(71, 109, 213, 1) 35%, rgba(109, 137, 213, 1) 100%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 900px;
+  height: 100%;
+
+}
+
+

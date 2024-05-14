@@ -1,0 +1,22 @@
+.schedule {
+
+  &.schedule_with-margin {
+    margin-bottom: 50px;
+  }
+
+  &-header__cell {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+  }
+
+  &-body__cell {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+
+    &.mark {
+      background: #e3ba12;
+    }
+  }
+}

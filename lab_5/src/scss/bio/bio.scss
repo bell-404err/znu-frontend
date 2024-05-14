@@ -1,0 +1,41 @@
+$text-size: 18px;
+
+.bio {
+  text-align: center;
+
+  &.bio_with-margin {
+    margin-bottom: 50px;
+  }
+
+  &-description {
+
+    &__picture {
+      margin-bottom: 20px;
+    }
+
+    &__photo {
+      height: 250px;
+      width: 250px;
+      border-radius: 10px;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+      }
+    }
+
+    &__autobiography {
+      font-size: $text-size;
+      &.autobiography_with-margin {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__link {
+      &:hover {
+        color: #6D89D5;
+      }
+    }
+  }
+}
+
